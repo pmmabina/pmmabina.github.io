@@ -1,53 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/Graduate.JPG);
+    
     /* background-color: beige; */
     background-position: center;
     background-size: cover;
     position: relative;
+    /**background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/Graduate.JPG);*/
 }
-nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
+h1{
+    text-align: center;
+    /*color: red;*/
 }
-nav img{
-    width: 80px;
-    height: 80px;
-}
-.nav-links{
-    flex: 1;
-    text-align: right;
-}
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-.nav-links ul li a{
-    color: #fff;
 
-}
-.nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
+p {
+    /*width: 800px;*/
+    padding: 10px;
     margin: auto;
-    transition: 0.5s;
+    width: 60%;
+    border: 2px solid gray;
 }
-.nav-links ul li:hover:after{
-    width: 100%;
-}
-.boxed{
-    border: 1px solid green ;
+body{
+    background-image: url("images/Graduate.JPG");
 }
