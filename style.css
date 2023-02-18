@@ -1,25 +1,28 @@
-.header{
+/**.header{
     min-height: 100vh;
     width: 100%;
     
-    /* background-color: beige; */
+     background-color: beige;
     background-position: center;
     background-size: cover;
     position: relative;
-    /**background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/Graduate.JPG);*/
-}
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/Graduate.JPG);}
+
+
 h1{
     text-align: center;
-    /*color: red;*/
+    color: red;
 }
 
 p {
-    /*width: 800px;*/
+    width: 800px;
     padding: 10px;
     margin: auto;
     width: 60%;
     border: 2px solid gray;
-}
-body{
-    background-image: url("images/Graduate.JPG");
-}
+}*/
+
+body {
+    background-image: url("images/graduate.jpg");
+       }
+
