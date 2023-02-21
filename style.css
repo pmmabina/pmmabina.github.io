@@ -9,20 +9,114 @@
   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/Graduate.JPG);}
 
 
-h1{
-    text-align: center;
-    color: red;
-}
 
-p {
-    width: 800px;
-    padding: 10px;
-    margin: auto;
-    width: 60%;
-    border: 2px solid gray;
-}*/
+
+*/
 
 body {
-    background-image: url("images/graduate.jpg");
+    background-image: url("images/technological.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
        }
+       
+       h1{
+        text-align: center;
+        color: rgb(255, 0, 136);
+        text-decoration: underline;
+    }
+    .summary {
+        padding: 8px;
+        margin: auto;
+        width: 60%;
+        border: 2px solid gray;
+        font-size: large;
+    }
+   
+    .logo{
+        padding: 20px;
+        width: 120px;
+        border-radius: 60px;
+        float: left;
+        padding: 30px;
+        margin-right: 0px;
+        height: 120px;
+        position: relative;
+        left: 35px;
+        top: -15px;
+    }
+       
+    .social-media{
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%,-50%);       
+     }
 
+    .fa{
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+
+      .fa-Github{
+        background: #007bb5;
+        color: white;
+      }
+      
+      .row{
+        padding: 50px;
+      }
+    
+      .column {
+        float: left;
+        width: 33%;
+        margin-bottom: 20px;
+      }
+      .card {
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+        margin: 12px;
+      }
+      .title {
+        color: grey;
+      }
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .col-25{
+        float: left;
+        padding: 5px;
+      }
+     
