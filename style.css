@@ -1,122 +1,129 @@
-/**.header{
-    min-height: 100vh;
-    width: 100%;
-    
-     background-color: beige;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/Graduate.JPG);}
-
-
-
-
-*/
-
 body {
-    background-image: url("images/technological.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-       }
-       
-       h1{
-        text-align: center;
-        color: rgb(255, 0, 136);
-        text-decoration: underline;
-    }
-    .summary {
-        padding: 8px;
-        margin: auto;
-        width: 60%;
-        border: 2px solid gray;
-        font-size: large;
-    }
-   
-    .logo{
-        padding: 20px;
-        width: 120px;
-        border-radius: 60px;
-        float: left;
-        padding: 30px;
-        margin-right: 0px;
-        height: 120px;
-        position: relative;
-        left: 35px;
-        top: -15px;
-    }
-       
-    .social-media{
-        position: absolute;
-        top: 95%;
-        left: 50%;
-        transform: translate(-50%,-50%);       
-     }
+  background-image: url("images/technological.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    .fa{
-        padding: 20px;
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
+h1 {
+  text-align: center;
+  color: rgb(255, 0, 136);
+  text-decoration: underline;
+}
+.summary {
+  padding: 8px;
+  margin: auto;
+  width: 60%;
+  border: 2px solid gray;
+  font-size: large;
+}
 
-      }
-      
-      .fa:hover {
-          opacity: 0.7;
-      }
-      
-      .fa-facebook {
-        background: #3B5998;
-        color: white;
-      }
+.logo {
+  padding: 20px;
+  width: 120px;
+  border-radius: 60px;
+  float: left;
+  padding: 30px;
+  margin-right: 0px;
+  height: 120px;
+  position: relative;
+  left: 35px;
+  top: -15px;
+}
 
-      .fa-twitter {
-        background: #55ACEE;
-        color: white;
-      }
+.social-media {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-      .fa-linkedin {
-        background: #007bb5;
-        color: white;
-      }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
-      .fa-Github{
-        background: #007bb5;
-        color: white;
-      }
-      
-      .row{
-        padding: 50px;
-      }
-    
-      .column {
-        float: left;
-        width: 33%;
-        margin-bottom: 20px;
-      }
-      .card {
-        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
-        margin: 12px;
-      }
-      .title {
-        color: grey;
-      }
-      .button {
-        border: none;
-        outline: 0;
-        display: inline-block;
-        padding: 8px;
-        color: white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%;
-      }
-      
-      .col-25{
-        float: left;
-        padding: 5px;
-      }
-     
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-Github {
+  background: #007bb5;
+  color: white;
+}
+
+.row {
+  padding: 50px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin-bottom: 20px;
+}
+.card {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 12px;
+}
+.title {
+  color: grey;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.card {
+  width: 430px;
+  height: 300px;
+  margin: auto;
+  border: 3px solid #73ad21;
+}
+.labels {
+  float: left;
+}
+.comments {
+  border: 2px solid;
+  width: 250px;
+  height: 110px;
+  resize: none;
+  overflow: auto;
+}
+
+.labels {
+  width:100px;
+  clear:left;
+  text-align:right;
+  padding-right:10px;
+}
+
+input, label {
+  float:left;
+}
+.contact-us{
+  position: fixed;
+}
