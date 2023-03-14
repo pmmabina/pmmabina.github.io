@@ -9,7 +9,7 @@ h1 {
   color: rgb(255, 0, 136);
   text-decoration: underline;
 }
-.summary {
+.About_Puledi {
   padding: 8px;
   margin: auto;
   width: 60%;
@@ -70,22 +70,13 @@ h1 {
   color: white;
 }
 
-.row {
-  padding: 50px;
-}
 
-.column {
-  float: left;
-  width: 33%;
-  margin-bottom: 20px;
-}
 .card {
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
-  margin: 12px;
-}
-.title {
-  color: grey;
-}
+  box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  }
+  
+
 .button {
   border: none;
   outline: 0;
@@ -96,22 +87,6 @@ h1 {
   text-align: center;
   cursor: pointer;
   width: 100%;
-}
-.card {
-  width: 430px;
-  height: 300px;
-  margin: auto;
-  border: 3px solid #73ad21;
-}
-.labels {
-  float: left;
-}
-.comments {
-  border: 2px solid;
-  width: 250px;
-  height: 110px;
-  resize: none;
-  overflow: auto;
 }
 
 .labels {
@@ -124,6 +99,14 @@ h1 {
 input, label {
   float:left;
 }
+
 .contact-us{
   position: fixed;
+}
+
+.body{
+  padding: 50px;
+  text-align: left;
+  table-layout: fixed;
+  width: 100%;
 }
