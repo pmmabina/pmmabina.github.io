@@ -1,14 +1,22 @@
 body {
-  background-image: url("images/technological.avif");
+  background-image: url("images/blue-gradient.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 h1 {
-  text-align: center;
   color: rgb(255, 0, 136);
-  text-decoration: underline;
+  text-decoration: underline; 
 }
+
+.right_logo, img{
+  margin-left: 80%;
+  width: 150px;
+  border-radius: 75px;
+  height: 150px;
+  top: 20px;
+}
+
 .About_Puledi {
   position: relative;
   text-align: center;
@@ -17,6 +25,11 @@ h1 {
   width: 60%;
   
   font-size: large;
+}
+.skill_table{
+  border: 2px solid gray;
+  width: 100%;
+  vertical-align: middle;
 }
 
 /* float: left; 
@@ -42,6 +55,7 @@ border: 2px solid gray;*/
   left: 35px;
    */
 }
+
 .interests{
   display: block;
   margin-left: auto;
@@ -131,9 +145,15 @@ input, label {
   width: 100%;
 }
 
-tr, th{
-  border: 2px solid greenyellow;
-}
-.table{
+button{
   border: 2px solid red;
+  width: 140px;
+}
+.quotes{
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: brown;
 }
