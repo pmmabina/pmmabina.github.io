@@ -151,6 +151,7 @@ input, label {
   text-align: left;
   table-layout: fixed;
   width: 100%;
+  height: auto;
 }
 
 button{
