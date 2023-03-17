@@ -5,16 +5,17 @@ body {
 }
 
 h1 {
-  color: rgb(255, 0, 136);
+  text-align: center;
+  color: #1f2b8e;
   text-decoration: underline; 
 }
 
 .right_logo, img{
-  margin-left: 80%;
-  width: 150px;
-  border-radius: 75px;
-  height: 150px;
-  top: 20px;
+  position: relative;
+  margin-left: 65%;
+  width: 200px;
+  height: 200px;
+  top: 100px;
 }
 
 .About_Puledi {
@@ -65,10 +66,12 @@ border: 2px solid gray;*/
 }
 
 .social-media {
+
   position: absolute;
-  top: 95%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 .fa {
@@ -156,4 +159,12 @@ button{
   left: 50%;
   transform: translate(-50%, -50%);
   color: brown;
+}
+
+.skills{
+  text-align: left;
+  position: absolute;
+  left: 20%;
+  color: #0091b5;
+  color: #06193b;
 }
