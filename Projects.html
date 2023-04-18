@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 
-<html>
-  <head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
-    <title>Welcome to Puledi's website</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap"
-      rel="stylesheet"
-    />
-    
-    <h1>Portfolio</h1>
-  </head>    
+    <html lang="en-US">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Welcome to Puledi's website</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap"
+        rel="stylesheet"
+        >
+        
+    </head>    
 
   <body>
+    <h1>Portfolio</h1>
       <section class="skills">
           <div>
               <h3>Development of KPI Reports for the team.</h3>
               <p>My team has been struggling with the record keeping of the monthly action
                   items, so I took the advantage of python and draft something that
-                  helps the team not to worry about manual records. <br/>The
+                  helps the team not to worry about manual records. The
                   program list all the action items that the team have worked on for
                   the previous month and records the dates based on the changes made
                   in the action item, the team used to record this manually at the
                   end of each month for reporting purposes.</p>
-              <p><h4>More projects coming soon...</h4></p>
+              <h4>More projects coming soon...</h4>
           </div>
 
       </section>
-      <section class="icons">
+      <p class="icons">
           <img src="images/project_tech.webp" alt="Icons">
-      </section>
-
-      <p class="links">
-          <button><a href= Index.html>Home Page</a></button>
-        <button><a href= Contact.html>Contact Puledi</a></button>
-        <button><a href= Skills.html>Skills</a></button>
       </p>
+
+      <div class="links">
+        <form style="display: inline"  action="index.html" method="get">
+          <button>Home Page</button>
+        </form>
+        <form style="display: inline" action="Contact.html" method="get">
+          <button>Contact Puledi</button>
+        </form>
+        <form style="display: inline" action="Skills.html" method="get">
+          <button>Skills</button>
+        </form>
+      </div>     
   </body>
 </html>
