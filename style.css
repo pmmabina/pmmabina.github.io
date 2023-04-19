@@ -29,10 +29,21 @@ h1 {
 }
 
 .links{
+  position: relative;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.external_links{
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.button_links{
+  cursor: pointer;
 }
 
 .skill_table{
@@ -63,6 +74,11 @@ border: 2px solid gray;*/
   position: relative;
   left: 35px;
    */
+}
+
+.more_information{
+  line-height: 15pt;
+  font-style: bold;
 }
 
 .interests{
@@ -127,7 +143,6 @@ border: 2px solid gray;*/
   color: white;
   background-color: #000;
   text-align: center;
-  cursor: pointer;
   width: 100%;
 }
 
@@ -173,6 +188,7 @@ button{
   left: 20%;
   color: #06193b;
   max-width: 500px;
+  line-height: 25pt;
 }
 .table{
   text-align: left;
