@@ -34,6 +34,7 @@ h1 {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 
 }
 
@@ -46,6 +47,16 @@ h1 {
 
 .button_links{
   cursor: pointer;
+}
+
+.text_field{
+ width: 150px;
+}
+
+.form_buttons{
+  position: relative;
+  left: -7%;
+  /* padding: 0px 10px; */
 }
 
 .skill_table{

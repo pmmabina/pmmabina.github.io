@@ -49,19 +49,29 @@
                             </div>
                         </td>
                         <td>
-                            <textarea id="comments" name="comments" rows="7" cols="30">Write something..
-                            </textarea>
+                            <div class="text_field">
+                                <textarea id="comments" name="comments" rows="7" cols="30">Write something..
+                                </textarea>
+                            </div>
                         </td>
-                    </tr>                
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>     
                 </table>
             </div>
-            
-
-            <div><button class="button_links" type="button" onclick="alert('Thank you for contacting us')">Submit</button>
+            <div class="form_buttons">
+                <!-- <button  type="button" onclick="alert('Thank you for contacting us')">Submit</button> -->
+                <form method="post" class="button_links"  action="mailto:pmmabina@gmail.com">
+                    <input type="submit" value="Send Email"/>
+                </form>
+                
                 <form style="display: inline"  action="index.html" method="get">
                     <button class="button_links">Home Page</button>
-                  </form>
-            </div>
+                </form>
+            </div>            
             
         </section>
     </body>
