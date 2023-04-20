@@ -10,14 +10,6 @@ h1 {
   text-decoration: underline; 
 }
 
-.right_logo, img{
-  position: relative;
-  margin-left: 65%;
-  width: 200px;
-  height: 200px;
-  top: 100px;
-}
-
 .About_Puledi {
   position: relative;
   text-align: center;
@@ -28,6 +20,15 @@ h1 {
   color: #06193b;
 }
 
+.right_logo, img{
+  position: relative;
+  margin-left: 65%;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+}
+
+
 .links{
   position: relative;
   top: 80%;
@@ -35,6 +36,7 @@ h1 {
   transform: translate(-50%, -50%);
 
 }
+
 .external_links{
   position: absolute;
   top: 80%;
@@ -54,8 +56,8 @@ h1 {
 
 /* float: left; 
 border: 2px solid gray;*/
+
 .logo {
-  
   position: relative;
   display: block;
   margin-left: auto;
@@ -190,6 +192,7 @@ button{
   max-width: 500px;
   line-height: 25pt;
 }
+
 .table{
   text-align: left;
   position: absolute;
